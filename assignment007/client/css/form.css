@@ -1,0 +1,87 @@
+.form-inline {
+    box-sizing: border-box;
+    padding: 20px;
+}
+.form-inline textarea, .form-inline input {
+    padding: 4px 6px;
+    border-radius: 2px;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 1px;
+    width: 100%;
+    border: solid 1px #ebecf2;
+}
+.form-inline textarea {
+    height: 250px;
+}
+.form-inline .row {
+    flex-wrap: wrap;
+}
+.form-inline .row label, .form-inline .row p {
+    padding: 8px;
+    font-weight: 400;
+    color: #666;
+    font-size: 12px;
+    text-align: right;
+    word-wrap: break-word;
+}
+.form .row.error, .form-inline .row.error {
+      background-color: #fae5e3;
+      padding: 5px 15px;
+}
+.form-inline .row.error label, .form-inline .row.error p {
+    color: #b94a48;
+}
+.form-inline .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0px;
+}
+.form-inline .row > label {
+    flex: 1;
+}
+.form-inline .row textarea, .form-inline .row input {
+    flex: 5;
+}
+.form-inline .row.error {
+    justify-content: flex-end;
+}
+.form-inline .row.error p {
+    width: 90%;
+    align-self: flex-end;
+    text-align: left;
+}
+.button, .button-action, .button-primary, .button-secondary {
+    border: none;
+    border-radius: 3px;
+    line-height: 26px;
+    height: 29px;
+    vertical-align: middle;
+    letter-spacing: 0.7px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 200;
+    margin: 0 2px;
+    padding: 0 12px;
+}
+.button-action {
+    background-color: #008580;
+    color: white;
+}
+.button-primary {
+    background-color: #4e70d4;
+    color: white;
+    padding: 0 11px;
+    border: 1px solid transparent;
+}
+.button-secondary {
+    background-color: #fafafc;
+    border: 1px solid #e4e5eb;
+}
+.button-secondary:hover {
+    background-color: #f1f3fb;
+    border-color: #4e70d4;
+}
